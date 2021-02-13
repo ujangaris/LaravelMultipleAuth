@@ -1,0 +1,10 @@
+"User login and management system with roles - EP1 project set-up and user login"
+
+- composer require laravel/ui "^2.0"
+
+- php artisan ui vue --auth
+- npm install
+- npm run dev
+- php artisan migrate
+
+===============================================
