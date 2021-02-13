@@ -14,3 +14,9 @@ User login and management system with roles - EP2 Admin controllers and UI links
 ===============================================
 - php artisan make:controller \\Admin\\UsersController -r -mUser
 -
+===============================================
+User login and management system with roles - EP5 Create Laravel user/role relationships
+===============================================
+- php artisan make:model Role -m
+- php artisan make:migration create_role_user_table
+
