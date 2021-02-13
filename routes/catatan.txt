@@ -20,3 +20,10 @@ User login and management system with roles - EP5 Create Laravel user/role relat
 - php artisan make:model Role -m
 - php artisan make:migration create_role_user_table
 
+===============================================
+User login and management system with roles - EP6 Seed the roles and users tables
+===============================================
+- php artisan make:seed RolesTableSeeder
+- php artisan make:seed UsersTableSeeder
+
+-php artisan db:seed
