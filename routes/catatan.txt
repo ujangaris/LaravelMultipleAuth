@@ -1,4 +1,6 @@
+===============================================
 "User login and management system with roles - EP1 project set-up and user login"
+===============================================
 
 - composer require laravel/ui "^2.0"
 
@@ -8,3 +10,7 @@
 - php artisan migrate
 
 ===============================================
+User login and management system with roles - EP2 Admin controllers and UI links
+===============================================
+- php artisan make:controller \\Admin\\UsersController -r -mUser
+-
