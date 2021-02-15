@@ -27,3 +27,14 @@ User login and management system with roles - EP6 Seed the roles and users table
 - php artisan make:seed UsersTableSeeder
 
 -php artisan db:seed
+
+===============================================
+User login and management with roles - EP13 Basic feature test introduction
+===============================================
+- php artisan make:test loginPageTest
+- ./vendor/bin/phpunit
+
+- php artisan make:test UserRedirectedWithNoLogin
+- ./vendor/bin/phpunit
+
+
