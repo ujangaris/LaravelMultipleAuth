@@ -8,9 +8,31 @@
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">
-                    @foreach($users as $user)
-                        {{ $user->name }} - {{ $user->email }}
-                    @endforeach
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @foreach($users as $user)
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>{{ $user->name }}</td>
+                            <td>{{ $user->email }}</td>
+                            <td>
+                                <a href="{{ route('admin.users.edit', $user->id) }}" class="btn btn-warning">Edit</a>
+                                <a href="{{ route('admin.users.destroy', $user->id) }}" class="btn btn-danger">Delete</a>
+                             </td>
+                            </tr>
+                        </tbody>
+                        @endforeach
+                    </table>
+
                 </div>
             </div>
         </div>
