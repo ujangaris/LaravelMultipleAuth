@@ -37,4 +37,14 @@ User login and management with roles - EP13 Basic feature test introduction
 - php artisan make:test UserRedirectedWithNoLogin
 - ./vendor/bin/phpunit
 
+===============================================
+User login and management with roles - EP13 Basic feature test introduction
+===============================================
+- php artisan migrate:rollback
+- php artisan migrate
+- php artisan db:seed
+
+ - php artisan make:migration create_foreign_keys_for_role_user_table
+
+ - php artisan migrate
 
