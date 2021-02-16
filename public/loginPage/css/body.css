@@ -1,0 +1,49 @@
+body{
+    background-color: #79238d;
+}
+
+.cover{
+    border-radius: 4px 0px 0px 4px;
+}
+
+
+.judul{
+    color: #71208b;
+}
+
+.desc{
+    font-size: 14px;
+    color: #c7c8ca;
+    margin-top: 24px;
+}
+
+.text-bold{
+    font-weight: bold;   
+}
+
+.link{
+    text-decoration:underline;
+    color: #71208b;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: #34133c;
+    font-weight: bold;
+}
+
+.btn-purple{
+    background-color: #79238d;
+    color: #fff;
+    transition: 300ms;
+}
+
+.btn-purple:hover{
+    background-color: #5c1e6a;
+    color: #fff;
+}
+
+.circle-icon{
+    height: 100%;
+    background-color: #71208b;
+}
