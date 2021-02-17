@@ -13,6 +13,7 @@
       <!-- Main Content -->
       <div class="main-content">
         <section class="section">
+            @include('partials.alerts')
           @yield('content')
         </section>
       </div>
